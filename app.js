@@ -1,7 +1,7 @@
 // BASE SETUP
 // =============================================================================
 // call the packages we need
-///<reference path="typings/tsd.d.ts" />
+///<reference path="typings/tsd.d.ts"/>
 
 //require('newrelic');
 var express = require('express'),
