@@ -38,7 +38,7 @@ describe('user service', function () {
 	});
 	it('should not add new user if already exist', function (done) {
 		repo.find.restore();
-		var dbFindStub = sinon.stub(repo, "find").yields(null, { id: 503 });
+		var dbFindStub = sinon.stub(repo, "find1").yields(null, { id: 503 });
 		var userService = new UserService(repo);
 		userService.addUser(
 			{
