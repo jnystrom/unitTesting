@@ -1,5 +1,5 @@
 language: node_js
 node_js:
   - "0.12"
-  notifications:
-    - slack: kenzielane:C8GMQ4l3ozpIGyJ8gLc8qZVX
+notifications:
+  - slack: kenzielane:C8GMQ4l3ozpIGyJ8gLc8qZVX
