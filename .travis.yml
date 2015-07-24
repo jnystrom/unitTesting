@@ -2,4 +2,4 @@ language: node_js
 node_js:
   - "0.12"
 notifications:
-  - slack: kenzielane:C8GMQ4l3ozpIGyJ8gLc8qZVX
+  - slack: 'kenzielane:C8GMQ4l3ozpIGyJ8gLc8qZVX'
