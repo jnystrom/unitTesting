@@ -17,6 +17,6 @@ var UserService = function (repository) {
 
 	this.getUser = function (userId, next) {
 		return repo.find("User", {_id: userId}, next);
-	};
+	}; 
 };
 module.exports = UserService;
